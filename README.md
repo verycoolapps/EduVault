@@ -9,11 +9,11 @@
 <br>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-6366F1.svg?style=for-the-badge)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-2.0.0-10B981.svg?style=for-the-badge)](https://github.com/adhithyasoemitro/EduVault/releases)
+[![Version](https://img.shields.io/badge/Version-2.0.0-10B981.svg?style=for-the-badge)](https://github.com/verycoolapps/EduVault/releases)
 [![Platform](https://img.shields.io/badge/Platform-Mac%20%7C%20Windows-F59E0B.svg?style=for-the-badge)](#-installation--instalasi)
 [![Language](https://img.shields.io/badge/Bilingual-🇮🇩%20Indonesian%20%7C%20🇺🇸%20English-EF4444.svg?style=for-the-badge)](#)
-[![Stars](https://img.shields.io/github/stars/adhithyasoemitro/EduVault?style=for-the-badge&color=F59E0B)](https://github.com/adhithyasoemitro/EduVault/stargazers)
-[![Downloads](https://img.shields.io/github/downloads/adhithyasoemitro/EduVault/total?style=for-the-badge&color=10B981)](https://github.com/adhithyasoemitro/EduVault/releases)
+[![Stars](https://img.shields.io/github/stars/verycoolapps/EduVault?style=for-the-badge&color=F59E0B)](https://github.com/verycoolapps/EduVault/stargazers)
+[![Downloads](https://img.shields.io/github/downloads/verycoolapps/EduVault/total?style=for-the-badge&color=10B981)](https://github.com/verycoolapps/EduVault/releases)
 
 <br>
 
@@ -27,8 +27,8 @@
 
 <br>
 
-[![Download for Mac](https://img.shields.io/badge/⬇️%20Download%20for%20Mac-Apple%20Silicon%20%26%20Intel-000000?style=for-the-badge&logo=apple)](https://github.com/adhithyasoemitro/EduVault/releases/latest)
-[![Download for Windows](https://img.shields.io/badge/⬇️%20Download%20for%20Windows-64--bit%20Installer-0078D6?style=for-the-badge&logo=windows)](https://github.com/adhithyasoemitro/EduVault/releases/latest)
+[![Download for Mac](https://img.shields.io/badge/⬇️%20Download%20for%20Mac-Apple%20Silicon%20%26%20Intel-000000?style=for-the-badge&logo=apple)](https://github.com/verycoolapps/EduVault/releases/latest)
+[![Download for Windows](https://img.shields.io/badge/⬇️%20Download%20for%20Windows-64--bit%20Installer-0078D6?style=for-the-badge&logo=windows)](https://github.com/verycoolapps/EduVault/releases/latest)
 
 </div>
 
@@ -317,7 +317,7 @@ npm >= 9.0.0
 ### Clone & Run
 
 ```bash
-git clone https://github.com/adhithyasoemitro/EduVault.git
+git clone https://github.com/verycoolapps/EduVault.git
 cd EduVault
 npm install
 npm run dev
@@ -453,7 +453,7 @@ Jika EduVault membantu sekolah Anda, tolong:
 
 Built with Electron, React, TypeScript, and SQLite. MIT Licensed. Free forever.
 
-[⬇️ Download for Mac](https://github.com/adhithyasoemitro/EduVault/releases/latest) | [⬇️ Download for Windows](https://github.com/adhithyasoemitro/EduVault/releases/latest) | [📖 Documentation](docs/)
+[⬇️ Download for Mac](https://github.com/verycoolapps/EduVault/releases/latest) | [⬇️ Download for Windows](https://github.com/verycoolapps/EduVault/releases/latest) | [📖 Documentation](docs/)
 
 ---
 
@@ -462,6 +462,6 @@ Built with Electron, React, TypeScript, and SQLite. MIT Licensed. Free forever.
 Made with ❤️ for Indonesian Schools  
 Dibuat dengan ❤️ untuk Sekolah Indonesia
 
-**[⭐ Star this repo if EduVault helps your school!](https://github.com/adhithyasoemitro/EduVault)**
+**[⭐ Star this repo if EduVault helps your school!](https://github.com/verycoolapps/EduVault)**
 
 </div>

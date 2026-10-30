@@ -41,7 +41,6 @@ dmg:
       path: /Applications
 
 win:
-  icon: assets/icon.ico
   publisherName: EduVault Team
   target:
     - target: nsis
@@ -51,9 +50,6 @@ win:
 nsis:
   oneClick: false
   allowToChangeInstallationDirectory: true
-  installerIcon: assets/icon.ico
-  uninstallerIcon: assets/icon.ico
-  installerHeaderIcon: assets/icon.ico
   createDesktopShortcut: true
   createStartMenuShortcut: true
   shortcutName: EduVault
