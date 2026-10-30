@@ -1,0 +1,70 @@
+appId: com.eduvault.app
+productName: EduVault
+copyright: Copyright © 2025 EduVault Team
+
+directories:
+  output: release
+  buildResources: assets
+
+files:
+  - dist/**
+  - package.json
+
+extraResources:
+  - from: assets/
+    to: assets/
+    filter:
+      - "**/*"
+
+asar: true
+
+mac:
+  category: public.app-category.finance
+  icon: assets/icon.icns
+  darkModeSupport: true
+  target:
+    - target: dmg
+      arch:
+        - x64
+        - arm64
+  entitlements: null
+  entitlementsInherit: null
+
+dmg:
+  title: EduVault ${version}
+  background: assets/dmg-background.png
+  icon: assets/icon.icns
+  iconSize: 80
+  contents:
+    - x: 130
+      y: 220
+    - x: 410
+      y: 220
+      type: link
+      path: /Applications
+
+win:
+  icon: assets/icon.ico
+  publisherName: EduVault Team
+  target:
+    - target: nsis
+      arch:
+        - x64
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  installerIcon: assets/icon.ico
+  uninstallerIcon: assets/icon.ico
+  installerHeaderIcon: assets/icon.ico
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: EduVault
+
+extraMetadata:
+  main: dist/main/index.js
+
+npmRebuild: true
+nodeGypRebuild: false
+
+afterSign: null
