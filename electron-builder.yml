@@ -20,7 +20,6 @@ asar: true
 
 mac:
   category: public.app-category.finance
-  icon: assets/icon.icns
   darkModeSupport: true
   target:
     - target: dmg
@@ -32,8 +31,6 @@ mac:
 
 dmg:
   title: EduVault ${version}
-  background: assets/dmg-background.png
-  icon: assets/icon.icns
   iconSize: 80
   contents:
     - x: 130
